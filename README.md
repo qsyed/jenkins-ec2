@@ -8,3 +8,12 @@
 While in the securtity group section of launch the ec2. make sure you open ports 8080(for jenkins) and 22 (ssh) for yourself.
 
 <img src = "images/sg-public.png">
+
+
+>the next step is to connect to your instance via ssh, and run the following commands
+
+* sudo yum update –y  (this updates the software on your instance)
+
+
+
+
