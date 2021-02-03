@@ -22,6 +22,7 @@ While in the securtity group section of launch the ec2. make sure you open ports
 
 
 * sudo rpm --import https://pkg.jenkins.io/redhat/jenkins.io.key
+> their should be no output if done coorrectly 
 
 
 
