@@ -21,10 +21,22 @@ While in the securtity group section of launch the ec2. make sure you open ports
 
 
 
-* sudo rpm --import https://pkg.jenkins.io/redhat/jenkins.io.key
-> their should be no output if done coorrectly 
+* sudo rpm --import https://pkg.jenkins.io/redhat/jenkins.io.key   (Importing a key file from Jenkins-CI to enable installation from the package)
+> there should be no output if done coorrectly 
 
 
+*sudo yum install jenkins -y  (installing jenkins)
+> excepted output: 
+<img src = "images/jenkins-intall.png>
+
+
+
+
+
+
+
+#Resources 
+* https://d1.awsstatic.com/Projects/P5505030/aws-project_Jenkins-build-server.pdf
 
 
 
