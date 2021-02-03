@@ -14,6 +14,16 @@ While in the securtity group section of launch the ec2. make sure you open ports
 
 * sudo yum update –y  (this updates the software on your instance)
 
+* sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat/jenkins.repo   (this get the jenkins repo onto your server)
+
+> the expect output should be following:
+<img src = "images/jenkins-repo.png">
+
+
+
+* sudo rpm --import https://pkg.jenkins.io/redhat/jenkins.io.key
+
+
 
 
 
