@@ -13,6 +13,7 @@ While in the securtity group section of launch the ec2. make sure you open ports
 >the next step is to connect to your instance via ssh, and run the following commands
 
 * sudo yum update –y  (this updates the software on your instance)
+* sudo yum install java-1.8.0-openjdk-devel -y (installing java - used by jenkins)
 
 * sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat/jenkins.repo   (this get the jenkins repo onto your server)
 
@@ -28,6 +29,14 @@ While in the securtity group section of launch the ec2. make sure you open ports
 *sudo yum install jenkins -y  (installing jenkins)
 > excepted output: 
 <img src = "images/jenkins-install.png">
+
+
+* sudo systemctl start jenkins (starting jenkins service)
+> no expected ouput
+
+* sudo systemctl status jenkins (ensuring jenkins service is up and running)
+> expected output:
+<img src = "images/success.png">
 
 
 
