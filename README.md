@@ -38,6 +38,8 @@ While in the securtity group section of launch the ec2. make sure you open ports
 > expected output:
 <img src = "images/success.png">
 
+* sudo systemctl enable jenkins (lastly enabling the jenkins service across server restarts)
+
 
 
 
