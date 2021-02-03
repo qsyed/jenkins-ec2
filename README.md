@@ -46,6 +46,13 @@ While in the securtity group section of launch the ec2. make sure you open ports
 <img src = "images/jenkins-web.png">
 
 
+>to get the initial administrative password use the following command 
+* sudo cat /var/lib/jenkins/secrets/initialAdminPassword 
+
+
+from there follow the steps prompt from the jenkins UI to complete creation of the server.
+
+
 
 
 
