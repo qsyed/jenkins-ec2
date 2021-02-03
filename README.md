@@ -27,8 +27,7 @@ While in the securtity group section of launch the ec2. make sure you open ports
 
 *sudo yum install jenkins -y  (installing jenkins)
 > excepted output: 
-<img src = "images/jenkins-install.png>
-
+<img src = "images/jenkins-install.png">
 
 
 
