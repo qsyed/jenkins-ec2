@@ -58,7 +58,7 @@ from there follow the steps prompt from the jenkins UI to complete creation of t
 
 
 
-#Resources 
+# Resources 
 * https://d1.awsstatic.com/Projects/P5505030/aws-project_Jenkins-build-server.pdf
 
 
